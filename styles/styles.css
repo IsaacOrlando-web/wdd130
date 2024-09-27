@@ -21,6 +21,37 @@ img{
     box-shadow: 0 0 30px gray;
 }
 
+main{
+    max-width: 840px; /*Limits its width for now*/
+}
+
+main img{
+    width: 150px;
+    height: auto;
+}
+
+aside{
+    width: 300px;
+    margin: 1em;
+    border: 1px solid rgb(64, 119, 171);
+    border-radius: 6px;
+    text-align: center;
+    padding: 1em;
+    background-color: steelblue;
+    color: white;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+}
+
 p{
-    padding: 10px;
+    padding: 0;
+}
+
+footer{
+    margin-top: 90px;
+    border-top: 2px dashed rgb(79, 135, 181);
+    text-align: center;
 }
