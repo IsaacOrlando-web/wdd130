@@ -9,9 +9,11 @@ nav a{
     padding: 20px;
 }
 
+/*The title*/
 h1 {
     color: steelblue;
 }
+
 
 img{
     width: 150px;
@@ -30,6 +32,8 @@ main img{
     height: auto;
 }
 
+
+/*The Aside, with The city, Santiago*/
 aside{
     width: 300px;
     margin: 1em;
