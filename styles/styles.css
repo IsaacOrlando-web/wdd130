@@ -1,5 +1,11 @@
+:root{
+    --heading-background-color: steelblue;
+    --text-align:center;
+    --heading-font: sans-serif;
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -7,11 +13,12 @@ nav a{
     color: white;
     display: block;
     padding: 20px;
+    font-family: var(--heading-font);
 }
 
 /*The title*/
 h1 {
-    color: steelblue;
+    color: var(--heading-background-color);
 }
 
 
@@ -39,7 +46,7 @@ aside{
     margin: 1em;
     border: 1px solid rgb(64, 119, 171);
     border-radius: 6px;
-    text-align: center;
+    text-align: var(--text-align);
     padding: 1em;
     background-color: steelblue;
     color: white;
@@ -52,10 +59,11 @@ aside img{
 
 p{
     padding: 0;
+    font-family: var(--heading-font);
 }
 
 footer{
     margin-top: 90px;
     border-top: 2px dashed rgb(79, 135, 181);
-    text-align: center;
+    text-align: var(--text-align);
 }
