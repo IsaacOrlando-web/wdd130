@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #279AF1;
+    --secondary-color: #23B5D3;
+    --accent1-color: #F7F7FF;
+    --accent2-color: #070600;
+
+    --heading-font: Roboto Slab;
+    --text-font: Syne;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--text-font);
+    text-align: justify;
+}
+
+.hero {
+    position: relative;
+}
+
+h1, article {
+    position: absolute;
+}
+
+h1 {
+    top: 100px;
+    left: 500px;
+    background-color: rgba(207, 207, 207, 0.406);
+}
+
+.hero-rafting-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*Article*/
+article{
+    width: 800px;
+    height: 200px;
+    padding: 15px;
+    top: 200px;
+    left: 250px;
+    background-color: var(--secondary-color);
+}
+
+/*Article Image*/
+.article-img {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
