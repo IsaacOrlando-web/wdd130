@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form -User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+
+    <!--M PLUS 1p-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <!--Zilla Slab-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Isaac Maldonado | HTML Form -User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <!--Form elements will go here-->
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Question</legend>
+
+                    <div class="form-item">
+                        <label for="browser">What is your favorite internet browser?</label>
+                        <select name="browser" id="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="brave">Brave</option>
+                            <option value="chrome">Opera</option>
+                        </select>
+                    <div class="form-item">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                        <label for="places">List the places you have lived:</label>
+                        <textarea name="places" id="places" placeholder="Melipilla, Concepción, Santiago, Talca"></textarea>
+                    </div> 
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©2024 | HTML Form - User Poll Activity | Isaac Maldonado</p>
+    </footer>
+</body>
+</html>
