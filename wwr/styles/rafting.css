@@ -8,6 +8,39 @@
     --text-font: Syne;
 }
 
+
+header {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 150px;
+    justify-content:left;
+    background-color: #279AF1;
+    margin-bottom: 10px;
+    padding-left: 200px;
+}
+
+header nav{
+    align-self: center;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    color: #070600;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
 }
@@ -53,4 +86,89 @@ article{
     width: 200px;
     height: 200px;
     float: right;
+}
+
+
+/*Container*/
+.history {
+    margin-top: 20px;
+    text-align: center;
+    padding: 25px;
+    background-color: #23B5D3;
+    border-radius: 6px;
+}
+
+/*subcontainer*/
+.history-container {
+    display: grid;
+    grid-template-columns: 25em 20em 25em;
+    grid-gap: 40px;
+    justify-content: space-around;
+}
+
+.history h2 {
+    color: white;
+    font-size: 2.5em;
+}
+
+.history p {
+    background-color: #dfdfff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.history-img {
+    margin:auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.adventure {
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #279AF1;
+    color: #279AF1;
+}
+
+.adventure-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 15px;
+}
+
+.adventure-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+footer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #070600;
+    padding: 10px;
+}
+
+footer p{
+    color: #F7F7FF;
+}
+
+footer a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+.socialmedia, footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
