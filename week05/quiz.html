@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    
+    <form>
+        <!--Text type input-->
+        <label for="q1"><span>1.</span>What does the acronym "HTML" stand for?</label>
+        <input type="text" id="q1" name="q1">
+
+        <!--A textarea element-->
+        <label for="q2"><span>2.</span>Which is the correct way to apply a class in CSS?</label>
+        <textarea name="q1" id="q2"></textarea>
+
+        <!--The select element-->
+        <label for="q3"><span>3.</span> is the correct HTML element for creating a hyperlink?</label>
+        <select name="q3" id="q3">
+            <option value="link">LINK</option>
+            <option value="a">a</option>
+            <option value="href">href</option>
+            <option value="url">url</option>
+        </select>
+
+        <!--A number type input element. (integer answer)-->
+        <label for="q4"><span>4.</span>How many h1 tags there be in an HTML page?</label>
+        <input type="number" id="q4" name="q4">
+
+        <!--Button submit-->
+        <input type="submit" class="boton" value="Submit Quiz">
+    </form>
+</body>
+</html>
