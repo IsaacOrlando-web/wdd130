@@ -172,3 +172,112 @@ footer img{
     justify-content: space-around;
     text-align: center;
 }
+
+/*CONTACT US*/
+/*COMPANY INFORMATION*/
+
+section{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+section h2{
+    text-align: center;
+    font-family: var(--heading-font);
+    color: rgb(39, 39, 115);
+}
+
+
+.company-information-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px max-content;
+    grid-template-rows: 2fr;
+    justify-content: space-around;
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.company-item {
+    text-align: center;
+    background-color: #F7F7FF;
+    height: 70%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.company-information-container h2 {
+    grid-column: 1/5;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.company-information-container p{
+    text-align: center;
+}
+
+.employee-container {
+    background-color: #F7F7FF;
+}
+
+/*EMPLOYEES INFORMATION*/
+.employee-container-flex {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.employee-item,.employee-item p{
+    text-align: center;
+}
+
+.employee-container-flex img{
+    border-radius: 50%;
+}
+
+/*FORM*/
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+form {
+    display: grid;
+    width: 40%;
+    padding: 20px;
+
+    background-color: var(--accent1-color);
+    border-radius: 7px;
+}
+
+input {
+    padding: 10px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    height: 100px;
+}
+
+.button{
+    width: 30%;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}

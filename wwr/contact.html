@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!--Font links-->
+    <!--Roboto Slab-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--Syne-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-information-container">
+            <h2>Company Information</h2>
+
+            <!--Address information-->
+            <div class="company-item">
+                <img src="images/svgs/address.svg" width="60" alt="address icon">
+                <h3>Address</h3>
+                <p>Calle Simón Bolívar 357, Coyhaique, Región de Aysén, Chile.</p>
+            </div>
+
+            <!--Phone Number-->
+            <div class="company-item">
+                <img src="images/svgs/phone.svg" width="60" alt="phone icon">
+                <h3>Phone number</h3>
+                <p>+56 9 8765 4321</p>
+            </div>
+
+            <!--MAIL Information-->
+            <div class="company-item">
+                <img src="images/svgs/mail.svg" width="60" alt="mail icon">
+                <h3>Mail</h3>
+                <p>riverPulseadventur
+                    es@gmail.com</p>
+            </div>
+
+            <!--Map-->
+            <div class="company-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3252.1338590423397!2d-72.67568832538299!3d-46.624892175985806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1729271948198!5m2!1ses!2scl" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!--the employee profile images with captions-->
+        <section class="employee-container">
+            <h2>Employees Information</h2>
+            <div class="employee-container-flex">
+                <div class="employee-item">
+                    <img src="images/employees/andrew.jpg"  width="200" alt="SEO Manager">
+                    <h3>SEO Manager</h3>
+                    <p>Samuel Maldonado</p>
+                </div>
+                <div class="employee-item">
+                    <img src="images/employees/Tom.jpg"  width="200" alt="marketing expert">
+                    <h3>Marketing Expert</h3>
+                    <p>Benjamin Maldonado</p>
+                </div>
+                <div class="employee-item">
+                    <img src="images/employees/Tobey.webp"  width="200" alt="Personal manager">
+                    <h3>Personal Manager</h3>
+                    <p>Joaquin Maldonado</p>
+                </div>
+            </div>
+        </section>
+
+        <!--the user comment form.-->
+        <section class="form-container">
+            <form>
+
+                <!--Input the name-->
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Juan perez">
+                </div>
+
+                <!--Input the Email Adress-->
+                <div class="form-item">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                </div>
+
+                <!--the purpose of the message-->
+                <div class="porpuse-item">
+                    <input type="radio" id="general-inquire" name="general-inquire">
+                    <label for="general-inquire">General Inquiry</label>
+
+                    <input type="radio" id="reservation" name="reservation">
+                    <label for="reservation">Reservation Question</label>
+
+                    <input type="radio" id="suggestion" name="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+
+                <div class="form-item">
+                    <textarea name="comment" id="comment" placeholder="Your message..."></textarea>
+                </div>
+
+                <div class="subscribe-item">
+                    <label for="subscribe">Subscribe to the monthly newsletter</label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                </div>
+
+                <input class="button" type="submit" value="SUBMIT">
+            </form>
+
+            <img src="images/3.jpg" alt="rafting">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>©2002 RiverPulse Adventures | Isaac Orlando Maldonado Soto</p>
+
+        <nav>
+            <a href="">facebook</a>
+            <a href="">instagram</a>
+            <a href="">twitter</a>
+        </nav>
+
+        <div class="socialmedia">
+            <img src="images/facebook.svg" alt="">
+            <img src="images/instagram.svg" alt="">
+            <img src="images/twitter.svg" alt="">
+        </div>
+    </footer>
+</body>
+</html>
