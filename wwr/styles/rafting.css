@@ -71,6 +71,10 @@ h1 {
     height: auto;
 }
 
+figure{
+    width: 60px;
+}
+
 /*Article*/
 article{
     width: 800px;
@@ -136,6 +140,20 @@ article{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     padding: 15px;
+}
+
+.adventure-container figcaption{
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    background-color: #279AF1;
+    color: #ffffff;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .adventure-container img {
