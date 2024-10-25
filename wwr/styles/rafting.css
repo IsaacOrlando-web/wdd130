@@ -460,3 +460,87 @@ textarea{
     color: #F7F7FF;
     font-size: 15px;
 }
+
+.hero-trip{
+    margin: auto;
+    width: 95%;
+    height: 250px;
+    background-image: url('https://www.gochile.cl/fotos/header/64530-12802862_10209176917927151_1561714612185932344_n.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.hero-trip h2{
+    font-family: var(--text-font);
+    font-size: 60px;
+    color: var(--accent2-color);
+}
+
+.hero-trip button{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EA526F;
+}
+
+.hero-trip button:hover{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #863745;
+}
+
+.hero-trip button a{
+    text-decoration: none;
+    color: #dfdfff;
+    font-size: 20px;
+}
+
+.trips-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trips-container figure{
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.trips-container figure img{
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.table-container {
+    padding: 20px;
+    background-image: url('https://www.shutterstock.com/image-vector/illustration-waves-splashing-against-white-260nw-128594993.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: #f7f7ffa2;
+}
+
+figcaption{
+    font-family: var(--text-font);
+}
+
+th{
+    border: 1px solid black;
+    background-color: #f7f7ff8d;
+}
+
+td{
+    border: 1px solid black;
+    padding: 7px;
+}
